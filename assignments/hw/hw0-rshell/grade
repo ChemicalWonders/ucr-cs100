@@ -1,1 +1,2 @@
-/ 100
+50 / 100
+multi command not working (-30), ls -l;exit not working (-5), checksystemcall.sh detect -25 points for misuse of system call
