@@ -238,7 +238,7 @@ function uploadGrades {
         git add $file
     done
 
-    git commit -S -m "graded assignment using automatic scripts"
+    git commit -S -m "graded assignment using automatic scripts for $1"
 
     echo "changes committed... uploading to github"
     git push origin "$gradesbranch"
